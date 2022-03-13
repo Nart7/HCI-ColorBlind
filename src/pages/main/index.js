@@ -1,34 +1,28 @@
 import React, { useState } from 'react';
 import TransitionArray from '../../components/Rainbo/index';
-import Rainbo from '../../components/Rainbo';
-import {ReactComponent as rainboSvg} from '../../assets/log.svg'
+import { useNavigate } from 'react-router-dom';
 
 import styles from './main.module.scss';
 
 
 const Main = () => {
+  const navigate = useNavigate();
+  const pushRoute = () => {
+    navigate('/color-blind')
+  }
 
   return <div className={styles.mainContainer}>
     
       <div className={styles.headerContainer}>
         <div className={styles.head}>
           <TransitionArray />
-          <h1 className={styles.headline}>HCI quiz</h1>
+          <h1 className={styles.headline}>Color Blind</h1>
         </div>
 
         <h2 className={styles.about}>
-          “Welcome to the HCI quiz! This quiz aims to develop your interaction with
-          your computer through your environmental factors. You will be asked 10
-          multiple choice questions about your environment, where we then mark you
-          from a score out of 100. The better the score, the more comfortable you are
-          behind your computer! To improve your comfort levels, simply read the
-          improvements we give you as you progress through the quiz.”
+        “Design elements and techniques that improve color accessibility for color blind users are generally considered to be good design practices.While you might think that your website’s aesthetic appeal might suffer if you design for accessibility, that’s certainly not the case.”
         </h2>
-
-      <rainboSvg />
-      <img className={{}} src={rainboSvg} />
-
-        <button className={styles.startButton} >Start quiz</button>
+      <button className={styles.startButton} onClick={pushRoute} >Test Color Blindness</button>
       </div>
       
   </div>;

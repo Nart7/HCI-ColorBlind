@@ -1,11 +1,13 @@
 import React from 'react';
 import { Routes, Route } from "react-router-dom";
+import ColorBlind from './pages/ColorBlind';
 import Main from './pages/main';
 
 
 const App = () => {
   return <Routes>
     <Route path="/" element={<Main />} />
+    <Route path="/color-blind" element={<ColorBlind />} />
   </Routes>;
 };
 
