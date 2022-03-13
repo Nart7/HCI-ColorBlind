@@ -4,19 +4,23 @@ import defaultImg from '../../assets/default.jpeg';
 import redGreenImg from '../../assets/red-green.jpeg';
 import tritonamalyImg from '../../assets/tritonamaly.jpeg';
 import tritanopiaImg from '../../assets/tritanopia.jpeg';
+import {useNavigate} from 'react-router-dom'
 
 
 const ColorBlind = () => {
     const [blindImage, setBlindImage] = React.useState(defaultImg);
+    const navigate = new useNavigate();
     
     const redGreenBtn = () => { setBlindImage(redGreenImg) };
     const tritonamalyBtn = () => { setBlindImage(tritonamalyImg) };
     const tritanopiaBtn = () => { setBlindImage(tritanopiaImg) };
     const resetBtn = () => { setBlindImage(defaultImg) };
+    const goBack = () => navigate('/');
 
 
     return (
         <div className={styles.container}>
+            <div className={styles.goBack} onClick={goBack}>{'< '} Back</div>
             <h1>Preview Image</h1>
             <p >
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
