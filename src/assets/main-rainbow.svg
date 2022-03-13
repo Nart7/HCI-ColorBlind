@@ -1,0 +1,140 @@
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="764.8457"
+   height="382.42383"
+   id="svg35"
+   sodipodi:docname="rainbow.svg"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1222"
+     inkscape:window-height="1005"
+     id="namedview37"
+     showgrid="false"
+     inkscape:zoom="0.55625733"
+     inkscape:cx="261.1334"
+     inkscape:cy="72.050245"
+     inkscape:window-x="54"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg35" />
+  <defs
+     id="defs31">
+    <linearGradient
+       id="Rainbow"
+       x2="0"
+       y2="1">
+      <stop
+         offset="0"
+         stop-color="red"
+         id="stop2" />
+      <stop
+         offset="0.1429"
+         stop-color="red"
+         id="stop4" />
+      <stop
+         offset="0.1429"
+         stop-color="#FF8000"
+         id="stop6" />
+      <stop
+         offset="0.2857"
+         stop-color="#FF8000"
+         id="stop8" />
+      <stop
+         offset="0.2857"
+         stop-color="#ff0"
+         id="stop10" />
+      <stop
+         offset="0.4286"
+         stop-color="#ff0"
+         id="stop12" />
+      <stop
+         offset="0.4286"
+         stop-color="lime"
+         id="stop14" />
+      <stop
+         offset="0.5714"
+         stop-color="lime"
+         id="stop16" />
+      <stop
+         offset="0.5714"
+         stop-color="cyan"
+         id="stop18" />
+      <stop
+         offset="0.7143"
+         stop-color="cyan"
+         id="stop20" />
+      <stop
+         offset="0.7143"
+         stop-color="#00F"
+         id="stop22" />
+      <stop
+         offset="0.8571"
+         stop-color="#00F"
+         id="stop24" />
+      <stop
+         offset="0.8571"
+         stop-color="#f0f"
+         id="stop26" />
+      <stop
+         offset="1.00"
+         stop-color="#f0f"
+         id="stop28" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#Rainbow"
+       id="radialGradient855"
+       cx="420.7627"
+       cy="179.65419"
+       fx="420.7627"
+       fy="179.65419"
+       r="516.60168"
+       gradientTransform="matrix(1,0,0,0.98803769,0,-256.31864)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#Rainbow"
+       id="radialGradient863"
+       cx="420.7627"
+       cy="179.65419"
+       fx="420.7627"
+       fy="179.65419"
+       r="516.60168"
+       gradientTransform="matrix(1,0,0,0.98803769,0,-256.31864)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#Rainbow"
+       id="radialGradient873"
+       cx="-124.0433"
+       cy="306.97015"
+       fx="-124.0433"
+       fy="306.97015"
+       r="192.85701"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.9880859,0,0,1.9880859,629.03164,-227.85998)" />
+  </defs>
+  <path
+     style="opacity:1;fill:url(#radialGradient873);fill-opacity:1;stroke:none;stroke-width:1.98808587;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.95522383"
+     d="M 382.42382,0 A 382.42224,382.42224 0 0 0 0,382.42383 H 764.8457 A 382.42224,382.42224 0 0 0 382.42382,0 Z"
+     id="path865"
+     inkscape:connector-curvature="0" />
+</svg>

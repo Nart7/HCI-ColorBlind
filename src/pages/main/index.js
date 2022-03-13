@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import TransitionArray from '../../components/Rainbo/index';
 import { useNavigate } from 'react-router-dom';
 
 import styles from './main.module.scss';
@@ -15,7 +14,6 @@ const Main = () => {
     
       <div className={styles.headerContainer}>
         <div className={styles.head}>
-          <TransitionArray />
           <h1 className={styles.headline}>Color Blind</h1>
         </div>
 
