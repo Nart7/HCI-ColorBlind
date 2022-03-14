@@ -1,6 +1,6 @@
 import { easings, animated, useSpring } from 'react-spring';
 
-
+// Animation Component
 function TransitionArray() {
     const { background, rotateZ } = useSpring({
         from: {
