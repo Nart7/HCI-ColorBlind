@@ -6,15 +6,18 @@ import tritonamalyImg from '../../assets/tritonamaly.jpeg';
 import tritanopiaImg from '../../assets/tritanopia.jpeg';
 import {useNavigate} from 'react-router-dom'
 
-
+// Color Blind Page 
 const ColorBlind = () => {
     const [blindImage, setBlindImage] = React.useState(defaultImg);
     const navigate = new useNavigate();
     
+    // All btn function that will change the image
     const redGreenBtn = () => { setBlindImage(redGreenImg) };
     const tritonamalyBtn = () => { setBlindImage(tritonamalyImg) };
     const tritanopiaBtn = () => { setBlindImage(tritanopiaImg) };
     const resetBtn = () => { setBlindImage(defaultImg) };
+
+    // Navigate To back Route
     const goBack = () => navigate('/');
 
 

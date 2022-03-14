@@ -3,9 +3,11 @@ import { useNavigate } from 'react-router-dom';
 
 import styles from './main.module.scss';
 
-
+// Landing Page Component
 const Main = () => {
   const navigate = useNavigate();
+  
+  // Switch Route Function 
   const pushRoute = () => {
     navigate('/color-blind')
   }
